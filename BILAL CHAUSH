@@ -1,0 +1,19 @@
+package Practice_Program;
+
+public class basic_Progam {
+
+	public static void main(String[] args) {
+		
+	String Name = "Bilal";
+	String rev = "";
+	
+	int i=0;
+	
+	for (i=0; i<Name.length()-1; i++)
+	{
+		rev = rev+Name.charAt(i);
+	}
+	System.out.println(rev);
+	}
+
+}
